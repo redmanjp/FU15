@@ -2,6 +2,10 @@
 #include <stdlib.h>
 int main(void){
 int i,head=0,tail=0;
+char name[50];
+printf("Who are you?\n>");
+scanf("%s",&name);
+printf("Hello,%s!\n",name);
 printf("Tossing a coin...\n");
 for(i=0;i<3;i++){
     printf("Round %d:",i);
