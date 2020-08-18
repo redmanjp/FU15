@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(void){
+int i,head=0,tail=0;
+printf("Tossing a coin...\n");
+for(i=0;i<3;i++){
+    printf("Round %d:",i);
+    if(rand()%2){
+        printf("Heads\n");
+        head++;
+    }else{
+        printf("Tails\n");
+        tail++;
+    }
+    
+}
+printf("Head:%d, Tails:%d\n",head,tail);
+}
