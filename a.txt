@@ -15,4 +15,6 @@ for(i=0;i<3;i++){
     
 }
 printf("Head:%d, Tails:%d\n",head,tail);
+if(head>tail) printf("You won\n");
+else printf("You lost\n");
 }
